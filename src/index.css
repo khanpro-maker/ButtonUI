@@ -1,0 +1,16 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+*{
+    overflow-y: scroll;
+    font-family: "Poppins";
+}
+.gradient{
+    @apply bg-gradient-to-r from-white to-slate-400 bg-clip-text text-transparent
+}
+.bg{
+    @apply absolute top-0 z-[-2] h-screen w-screen bg-[#000000] bg-[radial-gradient(#ffffff33_1px,#00091d_1px)] bg-[size:20px_20px]
+}
+.bg2{
+    @apply absolute bottom-auto left-auto right-0 top-0 h-[500px] w-[500px] -translate-x-[30%] translate-y-[20%] rounded-full bg-[rgba(173,109,244,0.5)] opacity-50 blur-[80px]
+}
